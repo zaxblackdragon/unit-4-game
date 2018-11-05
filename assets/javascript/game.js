@@ -14,6 +14,19 @@ $(document).ready(function () {
                 purple: Math.floor(Math.random() * 100),
                 green:  Math.floor(Math.random() * 100)
             };
+        var compareVal = function (color) {
+            if (color === compRandomNum) {
+                console.log("win");
+            } else if (color > compRandomNum) {
+                console.log("loss");
+            } else {
+                //needs to store the  value generated on click
+                //generate a new random num for said color button
+                // add first num to second num
+                // store results and rerun compareVal()
+            }
+        };
+   
         
         console.log(crystalNums.red,
                             crystalNums.blue, 
@@ -24,6 +37,8 @@ $(document).ready(function () {
     $("#redCrystal").on("click", function () {
        var red = crystalNums.red;
        console.log(red);
+       compareVal(red);
+       //need to reset values of crystalNums
     });
     // sets the random num to the button click
     $("#blueCrystal").on("click", function () {
