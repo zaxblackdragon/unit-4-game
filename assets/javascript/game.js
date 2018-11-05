@@ -1,6 +1,11 @@
 $(document).ready(function () {
     //  steps:
     //      wins and losses are reset to 0
+        var  wins = 0;
+        var losse = 0;
+        var compRandomNum = Math.floor(Math.random() * 100);
+
+        console.log(compRandomNum);
     //      computor choses a random number
     //      computor assigns a nuber to the user and all the crystals
     //      user clicks on a crystal and the value of said crystal is displayed
