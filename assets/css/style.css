@@ -13,3 +13,40 @@
     padding: 26px;
     border: 1px solid gray;
 }
+#redCrystal {
+  width: 100px;
+  height: 100px;
+  background: url(../images/redCrystalLight.png);
+  border: 3px solid red;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+  font-size: 30px;
+
+}
+#blueCrystal {
+  width: 100px;
+  height: 100px;
+  background: url(../images/blueCrystal.png);
+  border: 3px solid blue;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+  font-size: 30px;
+}
+#purpleCrystal {
+  width: 100px;
+  height: 100px;
+  background: url(../images/purpleCrystal.png);
+  border: 3px solid blueviolet;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+  font-size: 30px;
+}
+#greenCrystal {
+  width: 100px;
+  height: 100px;
+  background: url(../images/greenCrystal.png);
+  border: 3px solid green;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+  font-size: 30px;
+}
